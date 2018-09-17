@@ -11,7 +11,7 @@ class App < Sinatra::Base
     binding.pry
   end
 
-  post '/' do
+  post '/new' do
 
   end
 
