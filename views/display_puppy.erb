@@ -1,0 +1,13 @@
+
+
+<%new_pup = Puppy.new(@params["name"], @params["breed"], @params["age"])%>
+<form method="post" action="/">
+  Name: <%=new_pup.name%>
+  <input type="text" name="name">
+  Breed:<%=new_pup.breed%>
+  <input type="text" name="breed">
+  Age:<%=new_pup.age%>
+  <input type="text" name="age">
+  <br>
+  <input type="submit" value="Submit">
+</form>
